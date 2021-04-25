@@ -1,0 +1,29 @@
+{
+	"name": "express-api-server",
+	"version": "1.0.0",
+	"description": "Starter for an ExpressJS powered Web API",
+	"main": "src/main.js",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "node src/main.js",
+		"dev": "nodemon src/main.js",
+		"lint": "eslint --fix src"
+	},
+	"dependencies": {
+		"compression": "^1.7.4",
+		"cookie-parser": "^1.4.5",
+		"cors": "^2.8.5",
+		"csurf": "^1.11.0",
+		"express": "^4.17.1",
+		"helmet": "^4.5.0",
+		"morgan": "^1.10.0"
+	},
+	"author": "Otmane",
+	"license": "MIT",
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"eslint": "^7.25.0",
+		"nodemon": "^2.0.7"
+	}
+}
